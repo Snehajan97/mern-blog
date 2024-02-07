@@ -7,6 +7,7 @@ import SignUp from './pages/SignUp'
 import Dasboard from './pages/Dasboard'
 import SignIn from './pages/Signin';
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 export default function App() {
   return (
@@ -22,6 +23,7 @@ export default function App() {
 
      
       </Routes>
+      <Footer/>
       </BrowserRouter>
   )
 }
